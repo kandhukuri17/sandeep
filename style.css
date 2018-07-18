@@ -39,7 +39,7 @@ img{
     padding:3%;
     margin:2%;
     width:90%;
-    background-color: skyblue;
+    background-color: #2020EB;
     border-radius: 10%;
     text-align: center;
   }
@@ -67,7 +67,107 @@ img{
     border: 3px solid green;
     padding:3%;
     margin:3%;
-    background-color: skyblue;
+    background-color: #2020EB;
+    width:90%;
+  }
+
+}
+@media only screen and (min-width: 481px) and (max-width: 768px)
+{
+  .parent
+  {
+    display:flex;
+    flex-direction: row;
+    border:3px solid red;
+  }
+  .childone{
+    border: 3px solid blue;
+    padding:3%;
+    font-size:70;
+    font-family: cursive;
+    margin:2%;
+    width:90%;
+    background-color:#E90D0D;
+    border-radius: 10%;
+    text-align: center;
+  }
+  a{
+    word-wrap: break-word;
+  }
+  h1{
+    word-break: break-word;
+  }
+  h3{
+    word-break: break-word;
+  }
+  p{
+    word-break: break-word;
+  }
+  img{
+    width:50%;
+    border: 3px solid orange;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 5px 7px 9px #000;
+  }
+  .childtwo{
+    border: 3px solid green;
+    padding:3%;
+    font-size:70;
+    font-family: cursive;
+    margin:3%;
+    background-color:#E90D0D;
+    width:90%;
+  }
+
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px)
+{
+  .parent
+  {
+    display:flex;
+    flex-direction: row;
+    border:3px solid red;
+  }
+  .childone{
+    border: 3px solid blue;
+    padding:3%;
+    font-size:70;
+    font-family: cursive;
+    margin:2%;
+    width:90%;
+    background-color: #22D96A;
+    border-radius: 10%;
+    text-align: center;
+  }
+  a{
+    word-wrap: break-word;
+  }
+  h1{
+    word-break: break-word;
+  }
+  h3{
+    word-break: break-word;
+  }
+  p{
+    word-break: break-word;
+  }
+  img{
+    width:50%;
+    border: 3px solid orange;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 5px 7px 9px #000;
+  }
+  .childtwo{
+    border: 3px solid green;
+    padding:3%;
+    font-size:70;
+    font-family: cursive;
+    margin:3%;
+    background-color:#22D96A;
     width:90%;
   }
 
