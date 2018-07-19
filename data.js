@@ -1,4 +1,3 @@
-
 // function getfile(file,callback){
 //   var xhr = new XMLHttpRequest();
 //   xhr.overrideMimeType("application/json");
