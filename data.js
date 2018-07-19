@@ -1,10 +1,4 @@
 
-
-// this is my second project
-this is my second
-
-
-
 // function getfile(file,callback){
 //   var xhr = new XMLHttpRequest();
 //   xhr.overrideMimeType("application/json");
