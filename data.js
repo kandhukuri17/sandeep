@@ -111,7 +111,7 @@ function education(edu){
 
   tabledata="";
    for(i=0;i<skillinfo.length;i++){
-     tabledata+="<tr><td>"+skillinfo[i].title+"</td></tr>";
+     tabledata+="<tr><td>"+skillinfo[i].title+"</td><td>"+skillinfo[i].data+"</td></tr>";
    }
     skilldata.innerHTML = tabledata;
   }
