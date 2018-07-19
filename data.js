@@ -79,21 +79,25 @@ function education(edu){
   var ed = document.createElement("h2");
   ed.textContent = "Education Qualifications";
   child2.appendChild(ed);
+
   var hr = document.createElement("hr");
   child2.appendChild(hr);
+
   for(i=0;i<edu.length;i++){
     var deg = document.createElement("h3");
     deg.textContent = edu[i].degree;
     child2.appendChild(deg);
+
     var eduul = document.createElement("ul");
     var eduli = document.createElement("li");
     eduli.textContent = edu[i].institute;
     eduul.appendChild(eduli);
     child2.appendChild(eduul);
+
     var eduul = document.createElement("ul");
-    var eduli2 = document.createElement("li");
-    eduli2.textContent = edu[i].data;
-    eduul.appendChild(eduli2);
+    var eduli = document.createElement("li");
+    eduli.textContent = edu[i].data;
+    eduul.appendChild(eduli);
     child2.appendChild(eduul);
   }
 }
@@ -106,7 +110,7 @@ function education(edu){
    child2.appendChild(hr);
 
  var skilldata =document.createElement("table");
-  skilldata.border="1";
+  skilldata.border="3";
   child2.appendChild(skilldata);
 
   tabledata="";
@@ -124,6 +128,7 @@ function education(edu){
     child2.appendChild(hr);
 
     for(i=0;i<ach.length;i++){
+
       var eduul = document.createElement("ul");
       var eduli2 = document.createElement("li");
       eduli2.textContent = ach[i].data;
